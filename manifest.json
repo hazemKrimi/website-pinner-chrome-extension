@@ -1,0 +1,17 @@
+{
+    "name": "Website Pinner",
+    "version": "1.0",
+    "description": "View any website in a picture in picture mode",
+    "manifest_version": 2,
+    "background": {
+        "scripts": [
+            "background.js"
+        ]
+    },
+    "permissions": [
+        "activeTab",
+        "contextMenus",
+        "tabs",
+        "<all_urls>"
+    ]
+}
